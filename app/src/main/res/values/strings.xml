@@ -1,3 +1,107 @@
 <resources>
+
     <string name="app_name">Guardian</string>
+
+    <!-- Comuns -->
+    <string name="navigate_back">Retornar</string>
+    <string name="close">Fechar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Tentar de novo</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Dispositivos</string>
+    <plurals name="devices_count">
+        <item quantity="one">%d equipamento</item>
+        <item quantity="other">%d equipamentos</item>
+    </plurals>
+    <string name="search_placeholder">Buscar por nome ou IP</string>
+    <string name="search_clear">Limpar pesquisa</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_favorites">Favoritos</string>
+    <string name="filter_cameras">Câmeras</string>
+    <string name="filter_alarms">Alarmes</string>
+    <string name="add_device">Novo</string>
+    <string name="device_options">Opções de %1$s</string>
+    <string name="device_type_video">Equipamento de vídeo</string>
+    <string name="device_type_alarm">Central de alarme</string>
+    <string name="device_kind_camera">Câmera</string>
+    <string name="device_kind_alarm">Alarme</string>
+
+    <!-- Menu de ações -->
+    <string name="action_info">Ver detalhes</string>
+    <string name="action_edit">Editar dados</string>
+    <string name="action_favorite">Favoritar</string>
+    <string name="action_unfavorite">Desfavoritar</string>
+    <string name="action_remove">Excluir dispositivo</string>
+
+    <!-- Remoção -->
+    <string name="remove_dialog_title">Excluir dispositivo?</string>
+    <string name="remove_dialog_message">Tem certeza de que deseja apagar este equipamento?</string>
+    <string name="remove_confirm">Sim, excluir</string>
+
+    <!-- Estados -->
+    <string name="empty_title">Nenhum equipamento cadastrado</string>
+    <string name="empty_message">Toque em Novo para registrar o primeiro dispositivo.</string>
+    <string name="empty_filtered_title">Nenhum resultado</string>
+    <string name="empty_filtered_message">Tente refinar sua busca ou filtro.</string>
+    <string name="error_title">Falha ao carregar</string>
+
+    <!-- Sincronização -->
+    <string name="sync_offline">Modo offline. Exibindo dados salvos recentemente.</string>
+    <plurals name="sync_offline_pending">
+        <item quantity="one">Modo offline. %d alteração pendente de envio.</item>
+        <item quantity="other">Modo offline. %d alterações pendentes de envio.</item>
+    </plurals>
+    <plurals name="sync_pending">
+        <item quantity="one">Sincronizando %d alteração…</item>
+        <item quantity="other">Sincronizando %d alterações…</item>
+    </plurals>
+
+    <!-- Formulário -->
+    <string name="form_title_add">Adicionar Dispositivo</string>
+    <string name="form_title_edit">Editar Dispositivo</string>
+    <string name="form_save">Salvar alterações</string>
+    <string name="form_type_label">Categoria</string>
+    <string name="form_type_video">Vídeo</string>
+    <string name="form_type_alarm">Alarme</string>
+    <string name="form_name_label">Nome do dispositivo</string>
+    <string name="form_serial_label">Número de série</string>
+    <string name="form_username_label">Usuário de acesso</string>
+    <string name="form_password_label">Senha de acesso</string>
+    <string name="form_mac_label">Endereço MAC</string>
+    <string name="form_mac_hint_counter">Ex.: 1A:2B:3C:4D:5E:6F · %1$d/%2$d</string>
+    <string name="form_serial_number_hint_counter">Ex.: 1A2B3C4D5E6F9 · %1$d/%2$d</string>
+    <string name="form_char_counter">%1$d/%2$d</string>
+    <string name="form_alarm_password_hint">4 a 6 dígitos numéricos</string>
+    <string name="form_error_required">Preenchimento obrigatório</string>
+    <string name="form_error_too_long">Limite de %1$d caracteres excedido</string>
+    <string name="form_error_invalid_mac">MAC inválido (informe 12 caracteres hexadecimais)</string>
+    <string name="form_error_invalid_alarm_password">A senha precisa ter 4 ou 6 dígitos</string>
+    <string name="form_error_already_exists">Identificador já cadastrado</string>
+    <string name="password_show">Exibir senha</string>
+    <string name="password_hide">Ocultar senha</string>
+
+    <!-- Informações -->
+    <string name="details_title">Detalhes do Dispositivo</string>
+    <string name="details_type">Categoria</string>
+    <string name="details_not_found">Registro não localizado</string>
+    <string name="copy_value">Copiar %1$s</string>
+    <string name="copied">Copiado para a área de transferência</string>
+
+    <!-- Snackbars -->
+    <string name="msg_device_created">Dispositivo cadastrado com sucesso</string>
+    <string name="msg_device_updated">Dispositivo atualizado com sucesso</string>
+    <string name="msg_device_removed">Dispositivo removido com sucesso</string>
+    <string name="msg_device_removed_offline">Dispositivo removido localmente. Será sincronizado na reconexão.</string>
+    <string name="msg_delete_rejected">O servidor rejeitou a exclusão de %1$s. O item retornou à lista.</string>
+    <string name="error_network_write">Sem conexão com a internet. Alteração não salva.</string>
+    <string name="error_network">Sem conexão. Exibindo os dados em cache.</string>
+    <string name="error_timeout">Tempo limite esgotado. Tente novamente.</string>
+    <string name="error_unauthorized">Sessão expirada ou token inválido.</string>
+    <string name="error_not_found">Item não encontrado no servidor.</string>
+    <string name="error_conflict">Conflito: dados já cadastrados.</string>
+    <string name="error_invalid_data">Dados recusados pelo servidor. Verifique os campos.</string>
+    <string name="error_invalid_data_detail">Erro nos dados: %1$s</string>
+    <string name="error_server">Erro interno no servidor. Volte mais tarde.</string>
+    <string name="error_unknown">Ocorreu um erro inesperado.</string>
 </resources>
