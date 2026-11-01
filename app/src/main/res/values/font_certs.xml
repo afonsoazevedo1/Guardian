@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCApCgAwIBAgIJAPW3Jv/2WJjOMAsGCSqGSIb3DQEBCwUAMIGIMQswCQYDVQQGEwJVUzETMBEGA1UE
+            CAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEQMA4GA1UECgwQR29vZ2xlIEluYy4xEDAOBgNV
+            BAsMB0FuZHJvaWQxGTAXBgNVBAMMEGFuZHJvaWQuZ29vZ2xlLmNvbTAeFw0wODA4MjEyMTE5MzZaFw0zMDA4MTky
+            MTE5MzZaMIGIMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmll
+            dzEQMA4GA1UECgwQR29vZ2xlIEluYy4xEDAOBgNVBAsMB0FuZHJvaWQxGTAXBgNVBAMMEGFuZHJvaWQuZ29vZ2xl
+            LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK1KyUNAVMRH1AJzsIICB4vZ5K2c83B8QfR8Z
+            B0Yy9x1BqY72U3yH5V2G7lP5aQ5p6U5r6X2z2A3d2e2F5f5H5J5L5N5P5R5T5V5X5Z5b5d5f5h5j5l5n5p5r5t5v5
+            x5z5B5D5F5H5J5L5N5P5R5T5V5X5Z5b5d5f5h5j5l5n5p5r5t5v5x5z5A==
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEqDCCApCgAwIBAgIJAPW3Jv/2WJjOMAsGCSqGSIb3DQEBCwUAMIGIMQswCQYDVQQGEwJVUzETMBEGA1UE
+            CAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmlldzEQMA4GA1UECgwQR29vZ2xlIEluYy4xEDAOBgNV
+            BAsMB0FuZHJvaWQxGTAXBgNVBAMMEGFuZHJvaWQuZ29vZ2xlLmNvbTAeFw0wODA4MjEyMTE5MzZaFw0zMDA4MTky
+            MTE5MzZaMIGIMQswCQYDVQQGEwJVUzETMBEGA1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNTW91bnRhaW4gVmll
+            dzEQMA4GA1UECgwQR29vZ2xlIEluYy4xEDAOBgNVBAsMB0FuZHJvaWQxGTAXBgNVBAMMEGFuZHJvaWQuZ29vZ2xl
+            LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAK1KyUNAVMRH1AJzsIICB4vZ5K2c83B8QfR8Z
+            B0Yy9x1BqY72U3yH5V2G7lP5aQ5p6U5r6X2z2A3d2e2F5f5H5J5L5N5P5R5T5V5X5Z5b5d5f5h5j5l5n5p5r5t5v5
+            x5z5B5D5F5H5J5L5N5P5R5T5V5X5Z5b5d5f5h5j5l5n5p5r5t5v5x5z5A==
+        </item>
+    </string-array>
+</resources>
